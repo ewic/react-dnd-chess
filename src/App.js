@@ -2,9 +2,9 @@ import './App.css';
 
 import Board from './Board';
 
-function App() {
+function App({knightPosition}) {
   return (
-    <Board />
+    <Board knightPosition={knightPosition} />
   );
 }
 
