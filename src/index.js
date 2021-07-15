@@ -12,7 +12,7 @@ observe((knightPosition) => {
     <React.StrictMode>
       <App knightPosition={knightPosition} />
     </React.StrictMode>,
-    document.getElementById('root')
+    root
   );
 })
 
